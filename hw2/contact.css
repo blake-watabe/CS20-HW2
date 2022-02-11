@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Hyogo;
+    src: url(Hyogo-regular.otf);
+}
+
+body {
+    font-family: Hyogo, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.top-bar {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-shrink: 0;
+    padding-right: 20px;
+}
+
+.tab a {
+    color: black;
+    text-decoration: none;
+}
+
+.Top {
+    background-color: white;
+    display: flex;
+    padding: 0px 16px;
+    align-items: baseline;
+    position: sticky;
+    top: 0;
+    margin-top: 20px;
+}
+
+/* .image {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contact_image {
+    display: inline-block;
+    position: absolute;
+    width: 55%; max-width: 500px;
+    height: auto;
+}
+
+.contact {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ae9882;
+    margin: 400px;
+    width: relative;
+} */
+
+/* .box {
+    color: #202020;
+    justify-content: center;
+    margin: 12px;
+    width: 55%; max-width: 475px;
+} */
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.contact_image {
+    width: 80%; max-width: 800px;
+    height: 60%; max-width: 800px;
+}
+
+.credits {
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+}
+
+.background {
+    background-image: url("./img/white-background.jpg")
+}
